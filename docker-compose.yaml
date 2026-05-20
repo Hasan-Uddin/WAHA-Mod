@@ -1,6 +1,7 @@
 # https://waha.devlike.pro/docs/how-to/install/
 services:
   waha:
+    container_name: waha-mod
     restart: always
     image: hasan6uddin/waha-mod:latest
 
